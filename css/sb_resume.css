@@ -1,0 +1,98 @@
+img {
+     border: #cb42fa;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 100px;
+}
+
+header {
+        background-color: #cb42fa;
+        border-radius: 50px;
+}
+
+footer {
+        font-family: sans-serif;
+        font-size: 12px;
+}
+
+h1 {
+     color: white;
+     font-family: cursive;
+     font-style: italic;
+     background: #800080;
+     border-radius: 50px;
+     width: 800px;
+     text-align: center;
+}
+
+h2 {
+     color: #000000;
+     font-family: Arial;
+     text-align: left;
+     font-weight: bold;
+     width: 500px;
+     border-radius: 50px;
+}
+
+h3 {
+     font-family: Calibri;
+     border-radius: 100px;
+     width: 400px;
+}
+
+h4 {
+     font-style: italic;
+     font-family: calibri;
+}
+
+hr {
+     height: 1px;
+     background-color: #800080;
+}
+
+p {
+    font-family: Calibri;
+}
+
+ul li {
+    color: #000000;
+}
+
+div {
+    width: 300px;
+    border: 5px solid #800080;
+    padding: 10px; margin: 10px;
+	  font-family:Arial, Helvetica, sans-serif;
+}
+
+.main {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    border: dotted black;
+    overflow: auto;
+}
+
+.job-dates {
+   float:right;
+}
+
+.center-text {
+   text-align: center;
+}
+
+p.first::after {
+    content: '**';
+    font-weight: bold;
+}
+
+h2.second::first-letter {
+    color: #800080;
+    font-size:30px;
+}
+
+a:hover {
+    color: #339900;
+    text-decoration: underline;
+}
